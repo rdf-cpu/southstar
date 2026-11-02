@@ -1,0 +1,43 @@
+
+# Dependencies
+node_modules/
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Playwright test results
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Test artifacts
+*.zip
+*.webm
+*.png
+*.jpeg
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.log
+
