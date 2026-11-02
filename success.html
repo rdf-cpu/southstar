@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Southstar</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body class="success-page">
+  <main class="success-container">
+    <div class="success-icon">✓</div>
+
+    <p class="eyebrow">SOUTHSTAR ACCOUNT</p>
+    <h1>Welcome aboard, <span id="userName">there</span>!</h1>
+
+    <p class="success-message">
+      Your registration was completed successfully.
+      Your Southstar account is ready.
+    </p>
+
+    <section class="account-card">
+      <h2>Account details</h2>
+
+      <div class="detail-row">
+        <span>Full name</span>
+        <strong id="accountName">-</strong>
+      </div>
+
+      <div class="detail-row">
+        <span>Email address</span>
+        <strong id="accountEmail">-</strong>
+      </div>
+
+      <div class="detail-row">
+        <span>Account status</span>
+        <strong class="status-active">Active</strong>
+      </div>
+    </section>
+
+    <a href="/" class="primary-button" id="continueButton">
+      Continue to Southstar
+    </a>
+    <button type="button" id="logoutButton" class="logout-button">
+        Sign Out
+    </button>
+
+
+    <p class="footer-note">
+      Thank you for joining Southstar.
+    </p>
+  </main>
+
+  <script type="module" src="/src/success.js"></script>
+</body>
+</html>
